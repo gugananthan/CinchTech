@@ -1,0 +1,26 @@
+Blob Trigger
+------------
+
+-- Azure Portal
+
+1. Create Storage Account 
+2. Copy the value of Connection string in Access Key 
+3. Create Container in Storage Account
+
+
+-- Visual Studio project
+
+4. Create new project of 'Azure Function' type
+5. Change the function name in FunctionName attibute of Run method
+6. Paste the value of Connection string of Access Key in AzureWebJobsStorage key (in local.settings.json)
+7. set 'AzureWebJobsStorage' to connection parameter in Run method
+8. Run the application.
+
+
+-- Azure Portal
+
+9. Upload the file in created Container
+
+Application shows the uploaded file name and size
+
+
