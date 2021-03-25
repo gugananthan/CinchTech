@@ -14,12 +14,15 @@ Blob Trigger
 5. Change the function name in FunctionName attibute of Run method
 6. Paste the value of Connection string of Access Key in AzureWebJobsStorage key (in local.settings.json)
 7. set 'AzureWebJobsStorage' to connection parameter in Run method
-8. Run the application.
+8. Open Cloud Explorer and Navigate to Local > Storage Accounts > Emulator > Blob Container
+9. Create Storage account container as created in Azure portal.
+10. Mention the container in Blob Trigger parameter in Run method
+11. Run the application.
 
 
 -- Azure Portal
 
-9. Upload the file in created Container
+12. Upload the file in created Container
 
 Application shows the uploaded file name and size
 
